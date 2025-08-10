@@ -20,7 +20,7 @@ endif
 
 exe = executable(
   'main',
-  ['src/main.c', 'src/glad.c'],
+  ['src/main.c', 'src/glad.c', 'src/ui.c'],
   include_directories: include_directories('include'),
   dependencies : [
     cc.find_library('glfw3', dirs: [meson.project_source_root() / 'lib']),
