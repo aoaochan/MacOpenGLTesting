@@ -4,5 +4,6 @@
     "--background-index",
     "--clang-tidy",
     "--query-driver=/usr/bin/clang,/opt/homebrew/opt/llvm/bin/clang"
-  ]
+  ],
+  "mesonbuild.configureOnOpen": true
 }
